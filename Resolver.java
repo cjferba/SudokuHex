@@ -1,4 +1,4 @@
-/*
+﻿/*
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
@@ -168,16 +168,7 @@ public class Resolver {
         }
         }
         //para ordenar pos(falta hacer la funcion//
-public class c implements Comparator {
-            @Override public int compare(Object arg0, Object arg1) {
-                Posicion x = (Posicion)arg0;
-                Posicion y = (Posicion)arg1;
-                if(x.x > y.x) {return -1;
-                } else if(x == y) {
-                    return 0;
-                } else {
-                    return 1;
-                }}};
+
 	
 
 	public static void main(String a[]){
@@ -204,12 +195,6 @@ public class c implements Comparator {
                 time_end = System.currentTimeMillis();
                 System.out.println("the task has taken "+ ( time_end - time_start ) +" milliseconds");
                 
-                
-                ArrayList<Posicion> aug;
-                aug = new ArrayList<Posicion>(16*16);
-                LinkedList<Posicion> aass;
-                aass = new LinkedList<Posicion>();
-                Collections.sort(aass,new c());
 	}
 	
 }
